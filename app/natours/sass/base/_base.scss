@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as *;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+article {
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  padding: 3rem;
+  color: $color-grey-dark;
+}
